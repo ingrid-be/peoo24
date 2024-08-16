@@ -14,6 +14,6 @@ function intercalateStrings(str1, str2){
 console.log(intercalateStrings("abc", "123"))
 
 
-//questao 1
+
 
     
