@@ -1,0 +1,26 @@
+function countWords(str){
+    //retira espaços no inicio e no final da string 
+    str = str.trim();
+
+    if (str.lenght === 0)
+     return 0;
+
+let cntEspacos = 0;
+for (let caractere of str){
+    if (caractere === " "){
+        cntEspacos = contEspacos + 1;
+    }
+}
+
+return contEsoacos + 1;
+
+}
+
+function countWords(str){
+//split separa uma string a partir de uma string passada 
+// o retorno de split é um array 
+// todo array tem um comprimento (length)
+return str.split(" "). length;
+}
+
+console.log(countWords("ifrn é a melhor escola de parnamirim"));
