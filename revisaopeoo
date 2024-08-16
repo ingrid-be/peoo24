@@ -1,0 +1,19 @@
+function intercalateStrings(str1, str2){
+    if (str1.length !== str2.length)
+        return null;
+
+    let novaString = "";
+    for (let i = 0; i<str1.length; i++){
+     novaString = novaString + str1[i] + str2[i] 
+    }
+
+    return novaString
+
+}
+
+console.log(intercalateStrings("abc", "123"))
+
+
+//questao 1
+
+    
