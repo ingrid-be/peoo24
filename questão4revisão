@@ -1,0 +1,13 @@
+/*function replaceword(str){
+
+}*/
+
+//duas declarações iguais 
+
+const replaceWord = (strOrigin, strReplace, strsubistitute) => {
+   return strOrigin.repLaceAll(strReplace,strsubistitute);
+}
+
+
+let resultado = replaceWord("The quick brown fox jumps over the lazy dog", "fox", "cat");
+consolee.log(resultado);
