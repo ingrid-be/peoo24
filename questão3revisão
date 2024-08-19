@@ -1,0 +1,10 @@
+function isPalindrome (str){
+    let strTeste = "jkbkjbk";
+    strTeste.toLowerCase()
+    return str.toLowerCase().repLaceAll(" ","") ===
+       str.toLowerCase().repLaceAll(" ","").split("").reverse().join("") ? true : false;
+
+    
+}
+
+console.log(isPalindrome("A man a plan a canal panama"));
