@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" placeholder='digite o texto' id="campo"/>
+    <button onclick="capturarValor()">Enviar</button>
+
+<p id="res"></p>
+
+    <script>
+        function capturarValor(){
+
+            let texto = document.getElementById("campo").value;
+            document.getElementById("res").textcontent = texto;
+        }
+
+    </script>
+</body>
+</html>
